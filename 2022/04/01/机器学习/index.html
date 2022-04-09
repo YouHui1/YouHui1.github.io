@@ -20,23 +20,23 @@
   <meta content="mine" name="apple-mobile-web-app-title">
   <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
   <meta content="telephone=no" name="format-detection">
-  <link rel="preload" href="/css/style.css?time=1649301615453" as="style">
+  <link rel="preload" href="/css/style.css?time=1649523653741" as="style">
   <link rel="preload" href="/media/fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
   <!-- 页面元数据 -->
-  <title>机器学习 - mine</title>
+  <title>线性模型 - mine</title>
   <meta name="keywords" content="null">
   <meta name="description" content="线性模型相关内容">
 <meta property="og:type" content="article">
-<meta property="og:title" content="机器学习">
+<meta property="og:title" content="线性模型">
 <meta property="og:url" content="https://youhui1.github.io/2022/04/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/index.html">
 <meta property="og:site_name" content="mine">
 <meta property="og:description" content="线性模型相关内容">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://youhui1.github.io/2022/04/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/uta.png">
 <meta property="article:published_time" content="2022-04-01T12:37:03.000Z">
-<meta property="article:modified_time" content="2022-04-07T03:19:10.942Z">
+<meta property="article:modified_time" content="2022-04-07T15:23:36.731Z">
 <meta property="article:author" content="You Hui">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://youhui1.github.io/2022/04/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/uta.png">
@@ -1624,8 +1624,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="/css/style.css?time=1649301615453" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/css/style.css?time=1649301615453"></noscript>
+  <link rel="stylesheet" href="/css/style.css?time=1649523653741" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.css?time=1649523653741"></noscript>
   
 <script>
 if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode))
@@ -1696,9 +1696,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   volantis.dom = {}; // 页面Dom see: /source/js/app.js etc.
 
   volantis.GLOBAL_CONFIG ={
-    cdn: {"js":{"app":"/js/app.js?time=1649301615453","sites":"/js/plugins/sites.js?time=1649301615453","friends":"/js/plugins/friends.js?time=1649301615453","parallax":"/js/plugins/parallax.js?time=1649301615453","rightMenu":"/js/plugins/rightMenu.js?time=1649301615453","contributors":"/js/plugins/contributors.js?time=1649301615453","message":"/js/thirdparty/message.js?time=1649301615453","valine":"https://npm.elemecdn.com/valine@1.4/dist/Valine.min.js?time=1649301615453","search":"https://cdn.jsdelivr.net/xxxxxxxx/js/search/hexo.js?time=1649301615453"},"css":{"style":"/css/style.css?time=1649301615453","message":"/css/message.css?time=1649301615453"}},
+    cdn: {"js":{"app":"/js/app.js?time=1649523653741","sites":"/js/plugins/sites.js?time=1649523653741","friends":"/js/plugins/friends.js?time=1649523653741","parallax":"/js/plugins/parallax.js?time=1649523653741","rightMenu":"/js/plugins/rightMenu.js?time=1649523653741","contributors":"/js/plugins/contributors.js?time=1649523653741","message":"/js/thirdparty/message.js?time=1649523653741","valine":"https://npm.elemecdn.com/valine@1.4/dist/Valine.min.js?time=1649523653741","search":"https://cdn.jsdelivr.net/xxxxxxxx/js/search/hexo.js?time=1649523653741"},"css":{"style":"/css/style.css?time=1649523653741","message":"/css/message.css?time=1649523653741"}},
     default: {"avatar":"/media/placeholder/avatar/round/3442075.svg","link":"/media/placeholder/link/8f277b4ee0ecd.svg","cover":"/media/placeholder/cover/76b86c0226ffd.svg","image":"/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date('Thu Apr 07 2022 11:20:15 GMT+0800 (中国标准时间)'),
+    lastupdate: new Date('Sun Apr 10 2022 01:00:53 GMT+0800 (中国标准时间)'),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["toc"],
@@ -2318,7 +2318,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       <h1 class="title" itemprop="name headline">
-        机器学习
+        线性模型
       </h1>
       <div class='new-meta-box'>
         
@@ -2363,7 +2363,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   <div id="layoutHelper-page-plugins"></div>
   <div id="post-body" itemprop="articleBody">
-    <h1 id="线性模型"><a class="markdownIt-Anchor" href="#线性模型"></a> 线性模型</h1>
+    <span id="more"></span>
 <h2 id="线性回归"><a class="markdownIt-Anchor" href="#线性回归"></a> 线性回归</h2><div class="story post-story">
 <h3 id="1-基本形式"><a class="markdownIt-Anchor" href="#1-基本形式"></a> 1. 基本形式</h3>
 <p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><mi mathvariant="bold-italic">x</mi><mo stretchy="false">)</mo><mo>=</mo><msub><mi>w</mi><mn>1</mn></msub><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><msub><mi>w</mi><mn>2</mn></msub><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi><mo>+</mo><msub><mi>w</mi><mi>d</mi></msub><msub><mi>x</mi><mi>d</mi></msub><mo>+</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">f(\boldsymbol x) = w_1x_1 +w_2x_2 + ... + w_dx_d + b
@@ -2507,7 +2507,7 @@ theta_best = np.linalg.inv(X.T.dot(X)).dot(X.T).dot(y)
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-04-07T11:19:10+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-04-07T23:23:36+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
     <p>更新于：2022年4月7日</p>
@@ -2559,11 +2559,9 @@ theta_best = np.linalg.inv(X.T.dot(X)).dot(X.T).dot(y)
       
         <a class='next' href='/2022/03/20/%E6%B0%B4%E6%99%B6%E7%90%83/'>
           <p class='title'>水晶球<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
-          <p class='content'>
-
-
-这是一个水晶球，水晶球里面是一个完整的世界。处于水晶球里面的人们过着自己的忙碌生活，大体上与我所处的世界差不多。
-我是谁？这并不重要。反正我只是这颗水晶球的观察者，知晓水晶球里发生的一切。...</p>
+          <p class='content'>这是一个水晶球，水晶球里面是一个完整的世界。处于水晶球里面的人们过着自己的忙碌生活，大体上与我所处的世界差不多。
+我是谁？这并不重要。反正我只是这颗水晶球的观察者，知晓水晶球里发生的一切。
+当然...</p>
         </a>
       
     </div>
@@ -2664,7 +2662,7 @@ theta_best = np.linalg.inv(X.T.dot(X)).dot(X.T).dot(y)
 <script>
   window.pdata={}
   pdata.ispage=true;
-  pdata.postTitle="机器学习";
+  pdata.postTitle="线性模型";
   pdata.commentPath="";
   pdata.commentPlaceholder="";
   pdata.commentConfig={};
@@ -2767,7 +2765,7 @@ theta_best = np.linalg.inv(X.T.dot(X)).dot(X.T).dot(y)
 
 <!-- internal -->
 
-<script src="/js/app.js?time=1649301615453.js"></script>
+<script src="/js/app.js?time=1649523653741.js"></script>
 
 
 
@@ -2781,19 +2779,19 @@ theta_best = np.linalg.inv(X.T.dot(X)).dot(X.T).dot(y)
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("/js/plugins/sites.js?time=1649301615453")
+        volantis.js("/js/plugins/sites.js?time=1649523653741")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("/js/plugins/friends.js?time=1649301615453")
+        volantis.js("/js/plugins/friends.js?time=1649523653741")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("/js/plugins/contributors.js?time=1649301615453")
+        volantis.js("/js/plugins/contributors.js?time=1649523653741")
       }
     
   };
@@ -3164,7 +3162,7 @@ theta_best = np.linalg.inv(X.T.dot(X)).dot(X.T).dot(y)
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"mine","url":"https://youhui1.github.io/","logo":{"@type":"ImageObject","url":"uta.jpg","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"You Hui","image":{"@type":"ImageObject","url":"uta.jpg"},"url":"https://youhui1.github.io/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://youhui1.github.io/","name":"mine"}},{"@type":"ListItem","position":3,"item":{"@id":"https://youhui1.github.io/2022/04/01/机器学习/","name":"机器学习"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"机器学习","description":"线性模型相关内容","datePublished":"2022-04-01T12:37:03.000Z","dateModified":"2022-04-07T03:19:10.942Z","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://youhui1.github.io/2022/04/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"},"author":{"@type":"Person","name":"You Hui","image":{"@type":"ImageObject","url":"uta.jpg"},"url":"https://youhui1.github.io/"},"publisher":{"@type":"Organization","name":"mine","logo":{"@type":"ImageObject","url":"uta.jpg","width":192,"height":192}},"url":"https://youhui1.github.io/2022/04/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/","wordCount":0,"image":{"@type":"ImageObject","url":"uta.jpg","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"mine","url":"https://youhui1.github.io/","logo":{"@type":"ImageObject","url":"uta.jpg","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"You Hui","image":{"@type":"ImageObject","url":"uta.jpg"},"url":"https://youhui1.github.io/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://youhui1.github.io/","name":"mine"}},{"@type":"ListItem","position":3,"item":{"@id":"https://youhui1.github.io/2022/04/01/机器学习/","name":"线性模型"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"线性模型","description":"线性模型相关内容","datePublished":"2022-04-01T12:37:03.000Z","dateModified":"2022-04-07T15:23:36.731Z","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://youhui1.github.io/2022/04/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"},"author":{"@type":"Person","name":"You Hui","image":{"@type":"ImageObject","url":"uta.jpg"},"url":"https://youhui1.github.io/"},"publisher":{"@type":"Organization","name":"mine","logo":{"@type":"ImageObject","url":"uta.jpg","width":192,"height":192}},"url":"https://youhui1.github.io/2022/04/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/","wordCount":0,"image":{"@type":"ImageObject","url":"uta.jpg","width":192,"height":192}}]</script>
 
 
 <!-- more -->
