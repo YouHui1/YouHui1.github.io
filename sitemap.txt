@@ -1,7 +1,12 @@
-https://youhui1.github.io/2022/04/10/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D/
-https://youhui1.github.io/2022/04/01/%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B/
-https://youhui1.github.io/2022/03/20/%E6%B0%B4%E6%99%B6%E7%90%83/
 https://youhui1.github.io/inner/index.html
 https://youhui1.github.io/about/index.html
+https://youhui1.github.io/2022/05/28/pytorch%E5%AD%A6%E4%B9%A0/
+https://youhui1.github.io/2022/04/14/%E5%86%B3%E7%AD%96%E6%A0%91/
+https://youhui1.github.io/2022/03/20/%E6%B0%B4%E6%99%B6%E7%90%83/
+https://youhui1.github.io/2022/04/10/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D/
+https://youhui1.github.io/2022/04/01/%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B/
 https://youhui1.github.io/
 https://youhui1.github.io/tags/%E5%AD%A6%E4%B9%A0/
+https://youhui1.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/
+https://youhui1.github.io/tags/%E9%9A%8F%E8%AE%B0/
+https://youhui1.github.io/tags/pytorch/

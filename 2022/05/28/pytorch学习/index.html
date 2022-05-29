@@ -4,8 +4,8 @@
   <meta name="generator" content="Hexo 6.1.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
-  <meta name="robots" content="noindex,follow">
-  <link rel="canonical" href="https://youhui1.github.io/archives/"/>
+  
+  <link rel="canonical" href="https://youhui1.github.io/2022/05/28/pytorch学习/"/>
   <!-- 渲染优化 -->
   <!-- <meta http-equiv='x-dns-prefetch-control' content='on' />
   <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
@@ -20,22 +20,28 @@
   <meta content="mine" name="apple-mobile-web-app-title">
   <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
   <meta content="telephone=no" name="format-detection">
-  <link rel="preload" href="/css/style.css?time=1653827634796" as="style">
+  <link rel="preload" href="/css/style.css?time=1653827634769" as="style">
   <link rel="preload" href="/media/fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
   <!-- 页面元数据 -->
-  <title>归档 - mine</title>
-  <meta name="keywords" content="null">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="mine">
-<meta property="og:url" content="https://youhui1.github.io/archives/index.html">
+  <title>pytorch学习 - mine</title>
+  <meta name="keywords" content="学习,pytorch,null">
+  <meta name="description" content="&#x3D; &#x3D;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="pytorch学习">
+<meta property="og:url" content="https://youhui1.github.io/2022/05/28/pytorch%E5%AD%A6%E4%B9%A0/index.html">
 <meta property="og:site_name" content="mine">
+<meta property="og:description" content="&#x3D; &#x3D;">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://youhui1.github.io/archives/uta.png">
+<meta property="og:image" content="https://youhui1.github.io/2022/05/28/pytorch%E5%AD%A6%E4%B9%A0/uta.png">
+<meta property="article:published_time" content="2022-05-28T14:23:06.000Z">
+<meta property="article:modified_time" content="2022-05-29T10:42:45.503Z">
 <meta property="article:author" content="You Hui">
+<meta property="article:tag" content="学习">
+<meta property="article:tag" content="pytorch">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://youhui1.github.io/archives/uta.png">
+<meta name="twitter:image" content="https://youhui1.github.io/2022/05/28/pytorch%E5%AD%A6%E4%B9%A0/uta.png">
   <!-- feed -->
   <!-- import meta -->
   <!-- link -->
@@ -1620,8 +1626,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="/css/style.css?time=1653827634796" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/css/style.css?time=1653827634796"></noscript>
+  <link rel="stylesheet" href="/css/style.css?time=1653827634769" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.css?time=1653827634769"></noscript>
   
 <script>
 if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode))
@@ -1692,7 +1698,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   volantis.dom = {}; // 页面Dom see: /source/js/app.js etc.
 
   volantis.GLOBAL_CONFIG ={
-    cdn: {"js":{"app":"/js/app.js?time=1653827634796","sites":"/js/plugins/sites.js?time=1653827634796","friends":"/js/plugins/friends.js?time=1653827634796","parallax":"/js/plugins/parallax.js?time=1653827634796","rightMenu":"/js/plugins/rightMenu.js?time=1653827634796","contributors":"/js/plugins/contributors.js?time=1653827634796","message":"/js/thirdparty/message.js?time=1653827634796","valine":"https://npm.elemecdn.com/valine@1.4/dist/Valine.min.js?time=1653827634796","search":"https://cdn.jsdelivr.net/xxxxxxxx/js/search/hexo.js?time=1653827634796"},"css":{"style":"/css/style.css?time=1653827634796","message":"/css/message.css?time=1653827634796"}},
+    cdn: {"js":{"app":"/js/app.js?time=1653827634769","sites":"/js/plugins/sites.js?time=1653827634769","friends":"/js/plugins/friends.js?time=1653827634769","parallax":"/js/plugins/parallax.js?time=1653827634769","rightMenu":"/js/plugins/rightMenu.js?time=1653827634769","contributors":"/js/plugins/contributors.js?time=1653827634769","message":"/js/thirdparty/message.js?time=1653827634769","valine":"https://npm.elemecdn.com/valine@1.4/dist/Valine.min.js?time=1653827634769","search":"https://cdn.jsdelivr.net/xxxxxxxx/js/search/hexo.js?time=1653827634769"},"css":{"style":"/css/style.css?time=1653827634769","message":"/css/message.css?time=1653827634769"}},
     default: {"avatar":"/media/placeholder/avatar/round/3442075.svg","link":"/media/placeholder/link/8f277b4ee0ecd.svg","cover":"/media/placeholder/cover/76b86c0226ffd.svg","image":"/media/placeholder/image/2659360.svg"},
     lastupdate: new Date('Sun May 29 2022 20:33:54 GMT+0800 (中国标准时间)'),
     sidebar: {
@@ -2243,7 +2249,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
-      <div id="none" class='cover-wrapper  featured' style="display: none;">
+      <div id="none" class='cover-wrapper post featured' style="display: none;">
         
   <div class='cover-bg lazyload placeholder' data-bg="/sky.jpg"></div>
 
@@ -2292,95 +2298,294 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class="body-wrapper">
           
 <div id="l_main" class=''>
-	
-	  <article id="arc" class="post article white-box reveal shadow">
-			
-			
-				
-				
-					
-						
-						<h2>2022</h2>
-					
-						<div class='timenode'>
-								<a class="meta" href="/2022/05/28/pytorch%E5%AD%A6%E4%B9%A0/">
-									<time>05-28</time>
-									
-										pytorch学习
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						<div class='timenode'>
-								<a class="meta" href="/2022/04/14/%E5%86%B3%E7%AD%96%E6%A0%91/">
-									<time>04-14</time>
-									
-										决策树
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						<div class='timenode'>
-								<a class="meta" href="/2022/04/10/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D/">
-									<time>04-10</time>
-									
-										梯度下降
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						<div class='timenode'>
-								<a class="meta" href="/2022/04/01/%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B/">
-									<time>04-01</time>
-									
-										线性模型
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						<div class='timenode'>
-								<a class="meta" href="/2022/03/20/%E6%B0%B4%E6%99%B6%E7%90%83/">
-									<time>03-20</time>
-									
-										水晶球
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-	  </article>
-	
+  <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow article-type-post" id="post" itemscope itemprop="blogPost">
+  <link itemprop="mainEntityOfPage" href="https://youhui1.github.io/2022/05/28/pytorch%E5%AD%A6%E4%B9%A0/">
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="mine">
+  </span>
+  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
+    <meta itemprop="name" content="mine">
+    <meta itemprop="description" content="">
+  </span>
+  
+
+
+  
+    <span hidden>
+      <meta itemprop="image" content="uta.jpg">
+    </span>
+  
+  <div class="article-meta" id="top">
+    
+    
+    
+      <h1 class="title" itemprop="name headline">
+        pytorch学习
+      </h1>
+      <div class='new-meta-box'>
+        
+          
+            
+<div class='new-meta-item author' itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <a itemprop="url" class='author' href="/" rel="nofollow">
+    <img itemprop="image" src="/media/org.volantis/blog/favicon/uta.png" class="lazyload" data-srcset="/media/org.volantis/blog/favicon/uta.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+    <p itemprop="name">youhui</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+          
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2022-05-28T22:23:06+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2022年5月28日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+        <!-- Custom Files topMeta begin-->
+        
+        <!-- Custom Files topMeta end-->
+      </div>
+    
+  </div>
+
+
+  <div id="layoutHelper-page-plugins"></div>
+  <div id="post-body" itemprop="articleBody">
+    <span id="more"></span>
+<h2 id="0-简要"><a href="#0-简要" class="headerlink" title="0.简要"></a>0.简要</h2><div class="story post-story"><p>参考资料： <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1hE411t7RN?p=15">PyTorch深度学习快速入门教程（绝对通俗易懂！）【小土堆】</a><br>以下为观看视频时做的笔记。</p>
+</div><h2 id="1-工具运用"><a href="#1-工具运用" class="headerlink" title="1.工具运用"></a>1.工具运用</h2><div class="story post-story"><h3 id="1-1-TensorBoard使用"><a href="#1-1-TensorBoard使用" class="headerlink" title="1.1 TensorBoard使用"></a>1.1 TensorBoard使用</h3><p><strong>简介：</strong> TensorFlow 的可视化工具包<br><strong>开启：</strong> 键入命令tensorboard —logdir 日志名称<br><strong>注意：</strong> 命令需要在创建日志的目录下键入，或者键入的日志名称需要改为绝对路径</p>
+<p><strong>创建日志：</strong> 在python环境下创建writer</p>
+<pre><code>from torch.utils.tensorboard import SummaryWriter
+writer = SummaryWriter(&quot;logs&quot;)
+#...
+writer.close()
+</code></pre><p>例如在图中绘制散点:</p>
+<pre><code>from torch.utils.tensorboard import SummaryWriter
+writer = SummaryWriter(&quot;logs&quot;)
+for i in range(100):
+    writer.add_scalar(&quot;y=2*x&quot;, 3 * i, i)
+writer.close()
+</code></pre><p>随后在该py文件目录下键入命令tensorboard —logdir logs，会得到一个端口</p>
+<h3 id="1-2-Transform使用"><a href="#1-2-Transform使用" class="headerlink" title="1.2 Transform使用"></a>1.2 Transform使用</h3><p>基本结构：</p>
+<pre class="mermaid">graph LR
+    input-->tools
+    tools-->output</pre>
+
+<p>其中Transform起到tools的作用</p>
+<h4 id="1-2-1-transforms-ToTensor"><a href="#1-2-1-transforms-ToTensor" class="headerlink" title="1.2.1 transforms.ToTensor()"></a>1.2.1 transforms.ToTensor()</h4><p><strong>作用：</strong> 将图片改为tensor类型</p>
+<pre><code>from PIL import Image
+from torchvision import transforms
+
+img = Image.open(img_path)
+trans = transforms.ToTensor()
+img_tensor = trans(img)
+</code></pre><p>上面代码的结构如下：</p>
+<pre class="mermaid">graph LR
+    img["img(PIL)"]-->trans["trans"]
+    trans["trans"]-->tensor_img["img(tensor)"]</pre>
+
+<h4 id="1-2-2-transforms-Normalize"><a href="#1-2-2-transforms-Normalize" class="headerlink" title="1.2.2 transforms.Normalize()"></a>1.2.2 transforms.Normalize()</h4><p><strong>作用：</strong> 图片正则化 / 归一化</p>
+<pre><code>from torchvision import transforms
+
+# print(img_Tensor[0][0][0])
+trans_norm = transforms.Normalize([0.5, 0.5, 0.5], [0.5, 0.5, 0.5])
+# 计算公式：input[channel] = (input[channel]（输入） - mean[channel]（均值）) / std[channel]（标准差）
+
+img_norm = trans_norm(img_Tensor)
+# print(img_norm[0][0][0])
+</code></pre><h4 id="1-2-3-transforms-Resize"><a href="#1-2-3-transforms-Resize" class="headerlink" title="1.2.3 transforms.Resize()"></a>1.2.3 transforms.Resize()</h4><p><strong>作用：</strong> 调整图片大小</p>
+<pre><code>trans_resize = transforms.Resize((512, 512))
+# img PIL -&gt; resize -&gt; img_resize PIL
+img_resize = trans_resize(img)
+# img_resize PIL -&gt; toTensor -&gt; img_resize tensor
+img_resize = trans_toTensor(img_resize)
+</code></pre><h4 id="1-2-4-transforms-Compose"><a href="#1-2-4-transforms-Compose" class="headerlink" title="1.2.4 transforms.Compose()"></a>1.2.4 transforms.Compose()</h4><p><strong>作用：</strong> Compose的参数输入一个transfrom操作列表，通过对参数遍历对输入进行操作</p>
+<pre><code>trans_toTensor = transforms.ToTensor()
+trans_resize = transforms.Resize(x)
+# 将图片短边缩放至x，长宽比保持不变
+
+trans_compose = transforms.Compose([trans_toTensor, trans_resize])
+img_compose = trans_compose(img)
+</code></pre><p>以上代码结构如下：</p>
+<pre class="mermaid">graph LR
+    old_img["img(PIL)"]-->trans["compose"]
+    trans["compose"]-->new_img["img(tensor)(resize)"]
+    compose-.->ToTensor
+    ToTensor-.->resize</pre>
+
+<p>因此实际上结构为：</p>
+<pre class="mermaid">graph LR
+    old_img["img(PIL)"]-->totansor["ToTensor"]
+    totansor["ToTensor"]-.->resize    
+    resize-->new_img["img(tensor)(resize)"]</pre>
+
+<h4 id="1-2-5-transforms-RandomCrop"><a href="#1-2-5-transforms-RandomCrop" class="headerlink" title="1.2.5 transforms.RandomCrop()"></a>1.2.5 transforms.RandomCrop()</h4><p><strong>作用：</strong> 随机裁剪图片，参数可设置裁剪大小</p>
+<pre><code>trans_RandomCrop = transforms.RandomCrop((512, 512))
+img_crop = trans_RandomCrop(img)
+</code></pre><h3 id="1-3-torchvision中数据集的使用"><a href="#1-3-torchvision中数据集的使用" class="headerlink" title="1.3 torchvision中数据集的使用"></a>1.3 torchvision中数据集的使用</h3><h4 id="1-3-1-下载数据集"><a href="#1-3-1-下载数据集" class="headerlink" title="1.3.1 下载数据集"></a>1.3.1 下载数据集</h4><pre><code>import torchvision
+
+dataset_transform = torchvision.transforms.Compose([
+    torchvision.transforms.ToTensor()
+])
+
+train_set = torchvision.datasets.CIFAR10(root=&quot;./dataset2&quot;, train=True, download=True, transform=dataset_transform)
+test_set = torchvision.datasets.CIFAR10(root=&quot;./dataset2&quot;, train=False, download=True, transform=dataset_transform)
+# CIFAR10 数据集
+# root=数据集存放路径, 
+# train=是否为训练集, 
+# download=是否下载, 
+# transform=将PIL图片以某些函数进行转换加工等
+</code></pre><h4 id="1-3-2-Dataloader使用"><a href="#1-3-2-Dataloader使用" class="headerlink" title="1.3.2 Dataloader使用"></a>1.3.2 Dataloader使用</h4><pre><code>from torch.utils.data import DataLoader
+
+test_loader = DataLoader(dataset=test_data, batch_size=4, shuffle=True, num_workers=0, drop_last=False)
+</code></pre>
+</div>
+  </div>
+  
+  
+    
+    <div class='footer'>
+      
+      
+      
+        <div class='copyright'>
+          <blockquote>
+            
+              
+                <p>博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</p>
+
+              
+            
+              
+                <p>本文永久链接：<a href=https://youhui1.github.io/2022/05/28/pytorch%E5%AD%A6%E4%B9%A0/>https://youhui1.github.io/2022/05/28/pytorch%E5%AD%A6%E4%B9%A0/</a></p>
+              
+            
+              
+                <p>转载请注明出处</p>
+
+              
+            
+          </blockquote>
+        </div>
+      
+      
+    </div>
+  
+  
+    
+
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-05-29T18:42:45+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：2022年5月29日</p>
+  </a>
+</div>
+
+        
+      
+        
+          
+  
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E5%AD%A6%E4%B9%A0/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>学习</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/pytorch/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>pytorch</p></a></div>
+  <span hidden itemprop="keywords">学习 pytorch</span>
+
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+    <!-- Custom Files bottomMeta begin -->
+    
+    <!-- Custom Files bottomMeta end -->
+  </div>
+
+
+  
+  
+
+  
+    <div class="prev-next">
+      
+      
+        <a class='next' href='/2022/04/14/%E5%86%B3%E7%AD%96%E6%A0%91/'>
+          <p class='title'>决策树<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>
+
+hr:nth-of-type(1) {
+  border-color: black !important;
+  border-width: 3px 
+  !important;
+}
+hr:n...</p>
+        </a>
+      
+    </div>
+  
+  <!-- Custom Files postEnd begin-->
+  
+  <!-- Custom Files postEnd end-->
+</article>
+
+
+  
+
+  
+  <article class="post white-box reveal shadow" id="comments">
+    <span hidden>
+      <meta itemprop="discussionUrl" content="/2022/05/28/pytorch%E5%AD%A6%E4%B9%A0/index.html#comments">
+    </span>
+    <p ct><i class='fa-solid fa-comments'></i> 无评论功能</p>
+    
+    
+    <div id="layoutHelper-comments"></div>
+
+  </article>
+  
+
+
+
+
+
 </div>
 <aside id='l_side' itemscope itemtype="http://schema.org/WPSideBar">
   
@@ -2388,65 +2593,34 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
 
-<section class="widget blogger shadow floatable desktop mobile pjax">
-  <div class='content'>
-    
-      
-        <a class='avatar flat-box rectangle' href='/about/'>
-          <img no-lazy src='uta.jpg'/>
-        </a>
-      
-    
-    
-      <div class='text'>
-        
-          <h2>悠廻</h2>
-        
-        
-          <p>unknown</p>
 
-        
-        
-      </div>
-    
-    
-  </div>
-</section>
 
-  
-
-  
-    
-    
-
-  
-
-  
-    
-    
-  
-
-  <section class="widget tagcloud shadow floatable desktop mobile pjax">
+  <section class="widget toc-wrapper shadow floatable desktop mobile pjax" id="toc-div" >
     
   <header>
     
-      <a href='/blog/tags/'><i class="fa-solid fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
+      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
     
   </header>
 
 
     <div class='content'>
-      <a href="/tags/pytorch/" style="font-size: 14px; color: #999">pytorch</a> <a href="/tags/%E5%AD%A6%E4%B9%A0/" style="font-size: 24px; color: #555">学习</a> <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" style="font-size: 19px; color: #777">机器学习</a> <a href="/tags/%E9%9A%8F%E8%AE%B0/" style="font-size: 14px; color: #999">随记</a>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#0-%E7%AE%80%E8%A6%81"><span class="toc-text">0.简要</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%B7%A5%E5%85%B7%E8%BF%90%E7%94%A8"><span class="toc-text">1.工具运用</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-TensorBoard%E4%BD%BF%E7%94%A8"><span class="toc-text">1.1 TensorBoard使用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-Transform%E4%BD%BF%E7%94%A8"><span class="toc-text">1.2 Transform使用</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-transforms-ToTensor"><span class="toc-text">1.2.1 transforms.ToTensor()</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-2-transforms-Normalize"><span class="toc-text">1.2.2 transforms.Normalize()</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-3-transforms-Resize"><span class="toc-text">1.2.3 transforms.Resize()</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-4-transforms-Compose"><span class="toc-text">1.2.4 transforms.Compose()</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-5-transforms-RandomCrop"><span class="toc-text">1.2.5 transforms.RandomCrop()</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3-torchvision%E4%B8%AD%E6%95%B0%E6%8D%AE%E9%9B%86%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="toc-text">1.3 torchvision中数据集的使用</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-1-%E4%B8%8B%E8%BD%BD%E6%95%B0%E6%8D%AE%E9%9B%86"><span class="toc-text">1.3.1 下载数据集</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-2-Dataloader%E4%BD%BF%E7%94%A8"><span class="toc-text">1.3.2 Dataloader使用</span></a></li></ol></li></ol></li></ol>
     </div>
   </section>
-
-
-  
 
   
 
 
 <!-- 没有 pjax 占位会报错 万恶的 pjax -->
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
 
   <div class="pjax">
     <!-- pjax占位 -->
@@ -2475,14 +2649,15 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </aside>
 
 
+
           <!--此文件用来存放一些不方便取值的变量-->
 <!--思路大概是将值藏到重加载的区域内-->
 
 <pjax>
 <script>
   window.pdata={}
-  pdata.ispage=false;
-  pdata.postTitle="";
+  pdata.ispage=true;
+  pdata.postTitle="pytorch学习";
   pdata.commentPath="";
   pdata.commentPlaceholder="";
   pdata.commentConfig={};
@@ -2593,7 +2768,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <!-- internal -->
 
-<script src="/js/app.js?time=1653827634796.js"></script>
+<script src="/js/app.js?time=1653827634769.js"></script>
 
 
 
@@ -2607,19 +2782,19 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("/js/plugins/sites.js?time=1653827634796")
+        volantis.js("/js/plugins/sites.js?time=1653827634769")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("/js/plugins/friends.js?time=1653827634796")
+        volantis.js("/js/plugins/friends.js?time=1653827634769")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("/js/plugins/contributors.js?time=1653827634796")
+        volantis.js("/js/plugins/contributors.js?time=1653827634769")
       }
     
   };
@@ -2811,6 +2986,60 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <!-- pjax 标签必须存在于所有页面 否则 pjax error -->
 <pjax>
 
+    <script>
+  // https://github.com/theme-next/hexo-theme-next/blob/master/layout/_third-party/math/mathjax.swig
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = "/libs/mathjax/es5/tex-mml-chtml.js";
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    // 文章章节标题不能为 “MathJax” ，否则会报错。
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typesetPromise();
+  }
+</script>
+
+
+
 </pjax>
 
 <script>
@@ -2990,7 +3219,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"mine","url":"https://youhui1.github.io/","logo":{"@type":"ImageObject","url":"uta.jpg","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"You Hui","image":{"@type":"ImageObject","url":"uta.jpg"},"url":"https://youhui1.github.io/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://youhui1.github.io/","name":"mine"}},{"@type":"ListItem","position":2,"item":{"@id":"https://youhui1.github.io/archives/","name":"Archive"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"mine","url":"https://youhui1.github.io/","keywords":null,"description":"","author":{"@type":"Person","name":"You Hui","image":{"@type":"ImageObject","url":"uta.jpg"},"url":"https://youhui1.github.io/","description":""},"publisher":{"@type":"Organization","name":"mine","url":"https://youhui1.github.io/","logo":{"@type":"ImageObject","url":"uta.jpg","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://youhui1.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"mine","url":"https://youhui1.github.io/","logo":{"@type":"ImageObject","url":"uta.jpg","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"You Hui","image":{"@type":"ImageObject","url":"uta.jpg"},"url":"https://youhui1.github.io/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://youhui1.github.io/","name":"mine"}},{"@type":"ListItem","position":3,"item":{"@id":"https://youhui1.github.io/2022/05/28/pytorch学习/","name":"pytorch学习"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"pytorch学习","description":"= =","datePublished":"2022-05-28T14:23:06.000Z","dateModified":"2022-05-29T10:42:45.503Z","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://youhui1.github.io/2022/05/28/pytorch%E5%AD%A6%E4%B9%A0/"},"author":{"@type":"Person","name":"You Hui","image":{"@type":"ImageObject","url":"uta.jpg"},"url":"https://youhui1.github.io/"},"publisher":{"@type":"Organization","name":"mine","logo":{"@type":"ImageObject","url":"uta.jpg","width":192,"height":192}},"url":"https://youhui1.github.io/2022/05/28/pytorch%E5%AD%A6%E4%B9%A0/","wordCount":0,"keywords":"学习,pytorch","image":{"@type":"ImageObject","url":"uta.jpg","width":192,"height":192}}]</script>
 
 
 <!-- more -->
